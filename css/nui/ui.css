@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: auto;
+}
+
+@font-face {
+    src: url(font/gta-fonte.ttf);
+    font-family: 'gta';
+}
+
+@font-face {
+    src: url(font/gta2.ttf);
+    font-family: 'gta2';
+}
+a{
+      color: rgb(0, 0, 0);
+    float: right;
+    padding: 5px;
+
+}
+.container {
+    position: absolute;
+    top: 47.0%;
+    left: 49.1%;
+    background-color: rgb(255, 255, 255);
+    transform: translate(-52%,-50%);
+    width: 730px;
+    height: 520px;
+      border-radius: 10px;
+}
+
+.topo {
+    padding: 8px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.kit-title {
+    color: white;
+    font-size: 4.0em;
+    text-align: center;
+    font-family: 'gta';
+}
+
+.tudo {
+    padding: 5px;
+}
+
+.tudo ul {
+    list-style: none;
+}
+
+.tudo ul li {
+    text-align: center;
+    font-family: 'gta2';
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 1.5px;
+}
+.car:hover{
+  display: inline-flex;
+  background-color: rgb(78,95,174)
+}
+h1{
+  color: white;
+  padding: 6px;
+  font-size: 1em;
+  font-family: "Arial";
+  font-weight: bold;
+}
+ul{
+  color: white;
+  padding: 10px;
+  font-size: 0.7em;
+  background-color: rgb(61,85,188);
+  text-transform: uppercase;
+  font-family: "Arial";
+  font-weight: bold;
+}
+.lateral-title {
+    margin-bottom: 8px;
+    font-family: 'gta';
+    font-size: 0.7em;
+}
+
+.meio {
+    overflow: auto;
+    height: 450px;
+    z-index: 999;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav ul {                                                                          /* .nav serve para controlar a barra de utilitarios superior. (carros, motos, caminhões) */
+  list-style-position: none;                                
+  background-color: rgb(0, 0, 0);
+  text-align: left;
+  padding: 0.1%;
+  margin: 0.1%;
+  float: center;
+  height: 100%; 
+  width: 100%;
+  position: none;
+  border-radius: 1.7%;
+  
+
+}
+.nav li {
+  font-family: 'Arial', sans-serif;
+  font-size: 0.7em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 2px solid #d5d5d5;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid white;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 100%;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: "Arial" !important;
+    font-size: 0.9em;
+  }
+
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  /* Options 2 - Float */
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 100%;
+    margin:  auto;
+    position: right;
+  }
+  .nav {
+    background-color: rgb(255, 255, 255);
+    height: none;
+  }
+  
+}
+.area3 {
+    display: block;
+      float: right;
+    width: 780px;
+    height: 750px;
+  }
+.area2 {
+    display: block;
+      float: right;
+    width: 780px;
+    height: 750px;
+  }
+.area {
+    display: block;
+    float: right;
+    width: 780px;
+    height: 750px;
+ 
+ }
+ .card {
+    transition: 0.3s;
+    width: 180px;
+    display: inline-block;
+    margin: 13.6718px;
+    border-bottom: 2px solid #d5d5d5;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    font-family: 'gta2';
+  }
+  .dois{
+    font-size: 1em !important;
+  }
+  .name{
+    background: rgba(23,23,23,0.5);
+    padding: 5px;
+    color: white;
+    text-align: left;
+  }
+  .divi{
+    margin: 15PX;
+  }
+  span{
+    margin-top: 50px;
+    padding-top: 50px;
+    font-family: Arial !important;
+  }
+  nav{
+    background-color: rgb(61,85,174)
+  }
+  h4{
+      font-family: "Helvetica" !important;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+
+    .title{
+      color: rgb(61,85,188) !important;
+      font-size: 1em;
+    }
+  h5{
+    font-family: "Helvetica" !important;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  #cart{
+    color: rgb(0, 0, 0);
+    float: right;
+    padding: 5px;
+  }
+ .card1 {
+    transition: 0.3s;
+    width: 180px;
+    display: inline-block;
+    margin: 13.6718px;
+    margin-left: 110px;
+    border-bottom: 2px solid #d5d5d5;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    font-family: 'gta2';
+    
+  }
+
+  .title_job {
+      text-align: center;
+      font-weight: 600;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 0.8em;
+      margin: 0;
+    
+  }
+
+  .descript {
+    padding: 3px;
+    font-size: 1em;
+    font-family: 'gta2';
+  }
+
+  .botao {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .texto_job {
+      text-align: center;
+      color: black;
+      margin-bottom: 12px;
+      padding: 5px;
+      font-size: 0.8em;
+      background-color: rgba(230,230, 230, .8);
+      border-radius: 4px;
+      cursor: pointer;
+      transition: .5s;
+      font-family: "gta2";
+      font-size: 1.3em;
+  }
+
+  .texto_job:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+      color: black;
+  }
+
+  
+  .name {                                    /*  <--- Para alterar a cor do nome e do background de cada título de carro */
+   color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-family: "gta2";
+  }
+
+  .divBusca{
+    background-color:rgb(0, 0, 0);
+    border:solid 2px rgb(255, 255, 255);
+    border-radius:10px;
+    width:-100px;
+    height:25px;
+  }
+  
+  .txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px; 
+    font-size:12px;
+    border:none;
+    height:28px;
+    width:90px;
+ 
+  }
+
+  /*
+    #btnBusca{
+    border:none;                       <--- Esse é o css do botão de pesquisa
+    float:left;
+    height:22px;
+    border-radius:0 7px 7px 0;
+    width:38px;
+    font-weight:bold;
+    background:#5F9EA0;}
+  */
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  /* Add rounded corners to the top left and the top right corner of the image */
+  img {
+    overflow: hidden;
+  }
+
+  ::-webkit-scrollbar              {
+      width: 5px;
+  }
+
+  ::-webkit-scrollbar-track-piece {
+      background-color: rgb(255, 255, 255);
+  }
+
+  ::-webkit-scrollbar-thumb{
+      background-color: rgb(0, 0, 0);
+      border-radius: 3px;
+}
+
+#close {
+    color: white;
+    position: absolute;
+    top: 2.5%;
+    right: 2%;
+    cursor: pointer;
+    font-size: 1.3em;
+}
